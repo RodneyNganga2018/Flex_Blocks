@@ -1,0 +1,60 @@
+html {
+    background-color: darkslategray;
+}
+
+* {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    background: silver;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: darkorange;
+    width: 90%;
+    height: 10rem;
+}
+
+.body {
+    display: flex;
+    width: 94%;
+    justify-content: center;
+}
+
+.navigation {
+    background-color: lightskyblue;
+    width: 20rem;
+    height: 20rem;
+}
+
+.main {
+    background-color: lightcoral;
+    width: 90%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+.box {
+    background: yellow;
+    width: 35%;
+    height: 15rem;
+}
+
+.footnote {
+    background-color: mediumslateblue;
+    height: 10rem;
+}
